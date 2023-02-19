@@ -1,4 +1,4 @@
-# Temperature and Humidity Sensor DHT11 Script
+# Temperature and Humidity Sensor DHT Monitoring Script
 
 This project is a simple temperature monitor for the Raspberry Pi using the DHT11, DHT22 or AM2302 temperature and humidity sensors. The temperature and humidity data is logged to a SQLite database, and the script will print the time, temperature, and humidity to the screen if the temperature changes by any amount or the humidity changes by +-3%. Additionally, it prints the all-time high and low temperature values, as well as the daily high and low temperature values. The all-time high and low values are stored in a separate table in the database and are independent of the date. The daily high and low values are reset every day and are also stored in the database.
 
