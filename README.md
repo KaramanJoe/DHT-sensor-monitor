@@ -19,7 +19,7 @@ Systemd (for running the script as a service)
 
 1. Clone the repository: `git clone https://github.com/KaramanJoe/DHT-sensor-monitor.git`
 2. Open a terminal and navigate to the directory where the script is located.
-3. Install the required packages using pip with the following command: `pip install -r requirements.txt`
+3. Install the required packages using pip with the following command: `sudo pip install -r requirements.txt`
 4. Test the script by running the following command (replace sensor_type and pin_number with the appropriate values for your sensor and GPIO pin): `sudo python3 monitor.py <sensor_type> <pin_number>`. For example, if you are using a DHT11 sensor connected to GPIO pin 4, run the following command: `sudo python3 monitor.py 11 4`
 5. Run the script by entering the following command: `python3 monitor.py`
 6. The script will start reading the temperature and humidity from the sensor and storing it in the database.
